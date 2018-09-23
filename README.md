@@ -1,6 +1,6 @@
 # Explorer
 
-A VIPSTARCOIN blockchain explorer web application service for [VIPSTARCOINCORE Node](https://github.com/VIPSTARCOIN/vipstarcoincore-node) using the [VIPSTARCOIN API](https://github.com/VIPSTARCOIN/vipstarcoin-api).
+A MiningEnthusiastCoin blockchain explorer web application service for [MiningEnthusiastCoinCore Node](https://github.com/MiningEnthusiastCoin-Project/miningenthusiastcoincore-node) using the [MiningEnthusiastCoin API](https://github.com/MiningEnthusiastCoin/miningenthusiastcoin-api).
 
 
 ## Install via SSH
@@ -10,34 +10,34 @@ nvm use v6
 ```
 
 ```
-npm install git//github.com/VIPSTARCOIN/vipstarcoincore-node.git#master
-cd vipstarcoincore-node
-./bin/vipstarcoincore-node create explorer
+npm install git//github.com/MiningEnthusiastCoin/miningenthusiastcoincore-node.git#master
+cd miningenthusiastcoincore-node
+./bin/miningenthusiastcoincore-node create explorer
 cd explorer 
-../bin/vipstarcoincore-node install vipstarcoin-api
-../bin/vipstarcoincore-node install vipstarcoin-explorer
+../bin/miningenthusiastcoincore-node install miningenthusiastcoin-api
+../bin/miningenthusiastcoincore-node install miningenthusiastcoin-explorer
 
 ```
 
-Edit vipstarcoincore-node.json:
+Edit miningenthusiastcoincore-node.json:
 ```
 {
   "network": "livenet",
   "port": 3001,
   "services": [
-    "vipstarcoind",
-    "vipstarcoin-api",
-    "vipstarcoin-explorer",
+    "miningenthusiastcoind",
+    "miningenthusiastcoin-api",
+    "miningenthusiastcoin-explorer",
     "web"
   ],
   "servicesConfig": {
-    "vipstarcoin-explorer": {
-      "apiPrefix": "vipstarcoin-api",
-      "routePrefix": "vipstarcoin-explorer",
-	  "nodemapLink": "http://explorer.vipstarcoin.com/en/nodemap"
+    "miningenthusiastcoin-explorer": {
+      "apiPrefix": "miningenthusiastcoin-api",
+      "routePrefix": "miningenthusiastcoin-explorer",
+	  "nodemapLink": "http://explorer.miningenthusiastcoin.com/en/nodemap"
     },
-    "vipstarcoin-api": {
-      "routePrefix": "vipstarcoin-api",
+    "miningenthusiastcoin-api": {
+      "routePrefix": "miningenthusiastcoin-api",
       "rateLimiterOptions": {
         "whitelist": ["123.456.12.34", "::ffff:123.456.12.34"],
         "whitelistLimit": 9999999,
@@ -48,7 +48,7 @@ Edit vipstarcoincore-node.json:
       "db": {
         "host": "127.0.0.1",
         "port": "27017",
-        "database": "vipstarcoin-explorer",
+        "database": "miningenthusiastcoin-explorer",
         "user": "",
         "password": ""
       },
@@ -56,17 +56,17 @@ Edit vipstarcoincore-node.json:
         "updateFromBlockHeight": 0
       }
     },
-    "vipstarcoind": {
+    "miningenthusiastcoind": {
       "spawn": {
-        "datadir": "/home/user/.vipstarcoin",
-        "exec": "/home/user/vipstarcoincore-node/bin/VIPSTARCOINd"
+        "datadir": "/home/user/.miningenthusiastcoin",
+        "exec": "/home/user/miningenthusiastcoincore-node/bin/miningenthusiastcoind"
       }
     }
   }
 }
 ```
 
-Edit vipstarcoin.conf:
+Edit miningenthusiastcoin.conf:
 ```
 server=1
 whitelist=127.0.0.1
@@ -79,7 +79,7 @@ zmqpubhashblock=tcp://127.0.0.1:28332
 rpcallowip=127.0.0.1
 rpcuser=user
 rpcpassword=password
-rpcport=18332
+rpcport=9636
 reindex=1
 gen=0
 addrindex=1
@@ -87,7 +87,7 @@ logevents=1
 ```
 
 ```
-$(npm bin)/vipstarcoincore-node start
+$(npm bin)/miningenthusiastcoincore-node start
 ```
 
 
@@ -96,15 +96,15 @@ $(npm bin)/vipstarcoincore-node start
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g vipstarcoincore-node
-vipstarcoincore-node create mynode
+npm install -g miningenthusiastcoincore-node
+miningenthusiastcoincore-node create mynode
 cd mynode
-vipstarcoincore-node install vipstarcoin-api
-vipstarcoincore-node install vipstarcoin-explorer
-vipstarcoincore-node start
+miningenthusiastcoincore-node install miningenthusiastcoin-api
+miningenthusiastcoincore-node install miningenthusiastcoin-explorer
+miningenthusiastcoincore-node start
 ```
 
-Open a web browser to `http://localhost:3001/vipstarcoin-explorer`
+Open a web browser to `http://localhost:3001/miningenthusiastcoin-explorer`
 
 ## Development
 
@@ -155,11 +155,11 @@ compile***.
 
 ## Note
 
-For more details about the [VIPSTARCOIN API](https://github.com/VIPSTARCOIN/vipstarcoin-api) configuration and end-points, go to [VIPSTARCOIN API](https://github.com/VIPSTARCOIN/vipstarcoin-api).
+For more details about the [MiningEnthusiastCoin API](https://github.com/MiningEnthusiastCoin-Project/miningenthusiastcoin-api) configuration and end-points, go to [MiningEnthusiastCoin API](https://github.com/MiningEnthusiastCoin-Project/miningenthusiastcoin-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Explorer GitHub repository](https://github.com/VIPSTARCOIN/vipstarcoin-explorer).
+Contributions and suggestions are welcomed at the [Explorer GitHub repository](https://github.com/MiningEnthusiastCoin-Project/miningenthusiastcoin-explorer).
 
 
 ## License

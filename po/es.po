@@ -14,7 +14,7 @@ msgstr ""
 
 #: public/views/404.html
 msgid "404 Page not found :("
-msgstr "404 Página no encontrada :("
+msgstr "404 Pagina no encontrada :("
 
 #: public/src/js/controllers/statistics.js
 msgid ""
@@ -36,7 +36,7 @@ msgstr "Acerca de"
 #: public/views/addressPage.html public/views/messages_verify.html
 #: public/views/token/holders.html
 msgid "Address"
-msgstr "Dirección"
+msgstr "Direccion"
 
 #: public/views/token/transfers.html
 msgid "Age"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: public/views/status.html
 msgid "Application Status"
-msgstr "Estado de la Aplicación"
+msgstr "Estado de la Aplicacion"
 
 #: public/views/addressPage.html public/views/transaction/tx.html
 msgid "Asm"
@@ -107,7 +107,7 @@ msgstr "Bloques"
 #, fuzzy
 #| msgid "Latest Transactions"
 msgid "Broadcast Raw Transaction"
-msgstr "Últimas Transacciones"
+msgstr "Ultimas Transacciones"
 
 #: public/views/addressPage.html
 msgid "Bytecode"
@@ -123,15 +123,15 @@ msgstr "No se pudo conectar al servidor insight. Intentando re-conectar..."
 
 #: public/views/includes/connection.html
 msgid "Can't connect to internet. Please, check your connection."
-msgstr "No se pudo conectar a Internet. Por favor, verifique su conexión."
+msgstr "No se pudo conectar a Internet. Por favor, verifique su conexion."
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to vipstarcoind to get live updates from the p2p network. (Tried "
-"connecting to vipstarcoind at {{host}}:{{port}} and failed.)"
+"Can't connect to miningenthusiastcoind to get live updates from the p2p network. (Tried "
+"connecting to miningenthusiastcoind at {{host}}:{{port}} and failed.)"
 msgstr ""
-"No se pudo conectar a vipstarcoind para obtener actualizaciones en vivo de la "
-"red p2p. (Se intentó conectar a vipstarcoind de {{host}}:{{port}} y falló.)"
+"No se pudo conectar a miningenthusiastcoind para obtener actualizaciones en vivo de la "
+"red p2p. (Se intento conectar a miningenthusiastcoind de {{host}}:{{port}} y fallo.)"
 
 #: public/views/transaction.html
 msgid "Coinbase"
@@ -189,12 +189,12 @@ msgstr ""
 
 #: public/views/status.html
 msgid "Current Sync Status"
-msgstr "Actual Estado de Sincronización"
+msgstr "Actual Estado de Sincronizacion"
 
 #: public/views/index.html
 #, fuzzy
 #| msgid "Transactions"
-msgid "day VIPSTARCOIN Transaction History"
+msgid "day MiningEnthusiastCoin Transaction History"
 msgstr "Transacciones"
 
 #: public/src/js/controllers/statistics.js
@@ -215,7 +215,7 @@ msgstr "Dificultad"
 
 #: public/views/transaction/tx.html
 msgid "Double spent attempt detected. From tx:"
-msgstr "Intento de doble gasto detectado. De la transacción:"
+msgstr "Intento de doble gasto detectado. De la transaccion:"
 
 #: public/src/js/controllers/header.js
 msgid "English"
@@ -231,13 +231,13 @@ msgstr ""
 
 #: public/views/includes/connection.html
 msgid "Error!"
-msgstr "¡Error!"
+msgstr "!Error!"
 
 #: public/views/statistics.html
 #, fuzzy
 #| msgid "Transaction"
 msgid "Estimated Transaction Volume"
-msgstr "Transacción"
+msgstr "Transaccion"
 
 #: public/views/statistics.html
 msgid "Estimated Transaction Volume (USD)"
@@ -287,7 +287,7 @@ msgstr "Detectada una incoherencia en levelDB:"
 
 #: public/views/status.html
 msgid "Info Errors"
-msgstr "Errores de Información"
+msgstr "Errores de Informacion"
 
 #: public/views/status.html
 msgid "Initial Block Chain Height"
@@ -300,17 +300,17 @@ msgstr "Entrada sin confirmar"
 #: public/views/index.html
 msgid ""
 "Insight is an <a href=\"https://insight.is/\" target=\"_blank\">open-source "
-"VIPSTARCOIN blockchain explorer</a> with complete REST and websocket APIs that "
+"MiningEnthusiastCoin blockchain explorer</a> with complete REST and websocket APIs that "
 "can be used for writing web wallets and other apps that need more advanced "
-"blockchain queries than provided by VIPSTARCOINd RPC. Check out the <a href="
+"blockchain queries than provided by miningenthusiastcoind RPC. Check out the <a href="
 "\"https://github.com/bitpay/insight-ui\" target=\"_blank\" class=\"ng-scope"
 "\">source code</a>."
 msgstr ""
 "Insight  es un <a href=\"https://insight.is/\" target=\"_blank\">explorador "
-"de bloques de VIPSTARCOIN open-source </a>con un complete conjunto de REST y "
-"APIs de websockets que pueden ser usadas para escribir monederos de VIPSTARCOINs "
+"de bloques de MiningEnthusiastCoin open-source </a>con un complete conjunto de REST y "
+"APIs de websockets que pueden ser usadas para escribir monederos de MiningEnthusiastCoins "
 "y otras aplicaciones que requieran consultar in explorador de bloques.  "
-"Obtén el código en <a href=\"https://github.com/bitpay/insight-ui\" target="
+"Obten el codigo en <a href=\"https://github.com/bitpay/insight-ui\" target="
 "\"_blank\" class=\"ng-scope\">el repositorio abierto de Github</a>."
 
 #: public/views/index.html
@@ -319,7 +319,7 @@ msgid ""
 "feedback for improvement at our <a href=\"https://github.com/bitpay/insight-"
 "ui/issues\" target=\"_blank\" class=\"ng-scope\">github issue tracker</a>."
 msgstr ""
-"Insight esta en desarrollo aún, por ello agradecemos que nos reporten "
+"Insight esta en desarrollo aun, por ello agradecemos que nos reporten "
 "errores o sugerencias para mejorar el software. <a href=\"https://github.com/"
 "bitpay/insight-ui/issues\" target=\"_blank\" class=\"ng-scope\">Github issue "
 "tracker</a>."
@@ -336,7 +336,7 @@ msgstr ""
 msgid ""
 "Last Block Hash \r\n"
 "\t\t\t\t\t\t\t\t<span class=\"fsz-13\">\r\n"
-"\t\t\t\t\t\t\t\t\t({{ 'vipstarcoind' | translate }})\r\n"
+"\t\t\t\t\t\t\t\t\t({{ 'miningenthusiastcoind' | translate }})\r\n"
 "\t\t\t\t\t\t\t\t</span>"
 msgstr ""
 
@@ -344,17 +344,17 @@ msgstr ""
 #, fuzzy
 #| msgid "Last Block"
 msgid "Last Blocks"
-msgstr "Último Bloque"
+msgstr "Ultimo Bloque"
 
 #: public/views/block_list.html
 #, fuzzy
 #| msgid "Latest Blocks"
 msgid "Latest blocks from this date"
-msgstr "Últimos Bloques"
+msgstr "Ultimos Bloques"
 
 #: public/views/transaction.html
 msgid "Loading Transaction Details"
-msgstr "Cargando Detalles de la Transacción"
+msgstr "Cargando Detalles de la Transaccion"
 
 #: public/views/messages_verify.html public/views/transaction_sendraw.html
 #: public/views/includes/infoStatus.html
@@ -409,15 +409,15 @@ msgstr ""
 
 #: public/views/block_list.html
 msgid "No blocks yet."
-msgstr "No hay bloques aún."
+msgstr "No hay bloques aun."
 
 #: public/views/transaction/tx.html
 msgid "No Inputs (Newly Generated Coins)"
-msgstr "Sin Entradas (Monedas Recién Generadas)"
+msgstr "Sin Entradas (Monedas Recien Generadas)"
 
 #: public/views/includes/search.html
 msgid "No matching records found!"
-msgstr "¡No se encontraron registros coincidentes!"
+msgstr "!No se encontraron registros coincidentes!"
 
 #: public/views/token/token.html
 msgid "No.Of.Transfers:"
@@ -431,11 +431,11 @@ msgstr ""
 #, fuzzy
 #| msgid "Number Of Transactions"
 msgid "Number of Transactions"
-msgstr "Número de Transacciones"
+msgstr "Numero de Transacciones"
 
 #: public/views/block.html
 msgid "Number Of Transactions"
-msgstr "Número de Transacciones"
+msgstr "Numero de Transacciones"
 
 #: public/views/block_list.html
 msgid "Older blocks from this date"
@@ -465,34 +465,34 @@ msgstr "Bloque Anterior"
 #, fuzzy
 #| msgid "Protocol version"
 msgid "Protocol Version"
-msgstr "Versión del protocolo"
+msgstr "Version del protocolo"
 
 #: public/views/status.html
 #, fuzzy
 #| msgid "Proxy setting"
 msgid "Proxy Settings"
-msgstr "Opción de proxy"
+msgstr "Opcion de proxy"
 
 #: public/views/token/holders.html public/views/token/transfers.html
 msgid "Quantity"
 msgstr ""
 
 #: public/views/messages_verify.html
-msgid "VIPSTARCOIN comes with a way of signing arbitrary messages."
+msgid "MiningEnthusiastCoin comes with a way of signing arbitrary messages."
 msgstr ""
 
 #: public/views/statistics.html
-msgid "VIPSTARCOIN Mined"
+msgid "MiningEnthusiastCoin Mined"
 msgstr ""
 
 #: public/views/status.html
 #, fuzzy
-#| msgid "VIPSTARCOIN node information"
-msgid "VIPSTARCOIN node information"
-msgstr "Información del nodo VIPSTARCOIN"
+#| msgid "MiningEnthusiastCoin node information"
+msgid "MiningEnthusiastCoin node information"
+msgstr "Informacion del nodo MiningEnthusiastCoin"
 
 #: public/views/status.html
-msgid "vipstarcoind"
+msgid "miningenthusiastcoind"
 msgstr ""
 
 #: public/views/token/holders.html
@@ -503,7 +503,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Show Transaction Output data"
 msgid "Raw transaction data"
-msgstr "Mostrar dato de Salida de la Transacción"
+msgstr "Mostrar dato de Salida de la Transaccion"
 
 #: public/views/transaction_sendraw.html
 msgid "Raw transaction data must be a valid hexadecimal string."
@@ -533,7 +533,7 @@ msgstr "Ver todos los bloques"
 #, fuzzy
 #| msgid "Transaction"
 msgid "Send transaction"
-msgstr "Transacción"
+msgstr "Transaccion"
 
 #: public/views/addressPage.html
 #, fuzzy
@@ -548,11 +548,11 @@ msgstr ""
 #: public/views/block_list.html public/views/index.html
 #: public/views/transaction.html
 msgid "Size"
-msgstr "Tamaño"
+msgstr "Tamano"
 
 #: public/views/block.html
 msgid "Size (bytes)"
-msgstr "Tamaño (bytes)"
+msgstr "Tamano (bytes)"
 
 #: public/views/status.html
 msgid ""
@@ -590,20 +590,20 @@ msgid "Summary"
 msgstr "Resumen"
 
 #: public/views/statistics.html
-msgid "Summary of VIPSTARCOIN statistics for last 24 hours"
+msgid "Summary of MiningEnthusiastCoin statistics for last 24 hours"
 msgstr ""
 
 #: public/views/status.html
 msgid "Sync Progress"
-msgstr "Proceso de Sincronización"
+msgstr "Proceso de Sincronizacion"
 
 #: public/views/status.html
 msgid "Sync Status"
-msgstr "Estado de Sincronización"
+msgstr "Estado de Sincronizacion"
 
 #: public/views/status.html
 msgid "Sync Type"
-msgstr "Tipo de Sincronización"
+msgstr "Tipo de Sincronizacion"
 
 #: public/views/status.html
 msgid "Synced Blocks"
@@ -635,18 +635,18 @@ msgstr ""
 
 #: public/views/transaction/list.html
 msgid "There are no transactions involving this address."
-msgstr "No hay transacciones para esta dirección."
+msgstr "No hay transacciones para esta direccion."
 
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\r\n"
-"        the VIPSTARCOIN network."
+"        the MiningEnthusiastCoin network."
 msgstr ""
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\r\n"
-"        a specific VIPSTARCOIN address."
+"        a specific MiningEnthusiastCoin address."
 msgstr ""
 
 #: public/views/statistics.html
@@ -719,7 +719,7 @@ msgstr ""
 
 #: public/views/transaction.html
 msgid "Transaction"
-msgstr "Transacción"
+msgstr "Transaccion"
 
 #: public/views/transaction_sendraw.html
 msgid "Transaction succesfully broadcast.<br>Transaction id: {{txid}}"
@@ -729,7 +729,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Transaction"
 msgid "Transaction Summary"
-msgstr "Transacción"
+msgstr "Transaccion"
 
 #: public/views/addressPage.html public/views/block.html
 #: public/views/block_list.html public/views/index.html
@@ -746,7 +746,7 @@ msgstr "Tipo"
 
 #: public/views/transaction/tx.html
 msgid "Unconfirmed Transaction!"
-msgstr "¡Transacción sin confirmar!"
+msgstr "!Transaccion sin confirmar!"
 
 #: public/views/addressPage.html
 #, fuzzy
@@ -768,7 +768,7 @@ msgstr ""
 
 #: public/views/block.html public/views/status.html
 msgid "Version"
-msgstr "Versión"
+msgstr "Version"
 
 #: public/views/statistics.html
 msgid "View Chart"
@@ -785,22 +785,22 @@ msgstr ""
 #, fuzzy
 #~| msgid "Latest Transactions"
 #~ msgid "Cost per Transaction (USD)"
-#~ msgstr "Últimas Transacciones"
+#~ msgstr "Ultimas Transacciones"
 
 #, fuzzy
 #~| msgid "Latest Transactions"
 #~ msgid "Earned From Transaction Fees"
-#~ msgstr "Últimas Transacciones"
+#~ msgstr "Ultimas Transacciones"
 
 #, fuzzy
 #~| msgid "Transaction"
 #~ msgid "Of Transaction Volume"
-#~ msgstr "Transacción"
+#~ msgstr "Transaccion"
 
 #, fuzzy
 #~| msgid "Address"
 #~ msgid "address"
-#~ msgstr "Dirección"
+#~ msgstr "Direccion"
 
 #~ msgid "github issue tracker"
 #~ msgstr "Github issue tracker"
@@ -808,8 +808,8 @@ msgstr ""
 #~ msgid "Insight is an"
 #~ msgstr "Insight  es un"
 
-#~ msgid "open-source VIPSTARCOIN blockchain explorer"
-#~ msgstr "explorador de bloques de VIPSTARCOIN open-source"
+#~ msgid "open-source MiningEnthusiastCoin blockchain explorer"
+#~ msgstr "explorador de bloques de MiningEnthusiastCoin open-source"
 
 #~ msgid "source code"
 #~ msgstr "el repositorio abierto de Github"
@@ -832,14 +832,14 @@ msgstr ""
 #~ msgid "Input"
 #~ msgstr "Entrada"
 
-#~ msgid "Last Block Hash (vipstarcoind)"
-#~ msgstr "Último Bloque Hash (vipstarcoind)"
+#~ msgid "Last Block Hash (miningenthusiastcoind)"
+#~ msgstr "Ultimo Bloque Hash (miningenthusiastcoind)"
 
 #~ msgid "Loading Address Information"
-#~ msgstr "Cargando Información de la Dirección"
+#~ msgstr "Cargando Informacion de la Direccion"
 
 #~ msgid "Loading Block Information"
-#~ msgstr "Cargando Información del Bloque"
+#~ msgstr "Cargando Informacion del Bloque"
 
 #~ msgid "Loading Selected Date..."
 #~ msgstr "Cargando Fecha Seleccionada..."
@@ -848,7 +848,7 @@ msgstr ""
 #~ msgstr "Cargando Transacciones..."
 
 #~ msgid "Next Block"
-#~ msgstr "Próximo Bloque"
+#~ msgstr "Proximo Bloque"
 
 #~ msgid "Output"
 #~ msgstr "Salida"
@@ -860,7 +860,7 @@ msgstr ""
 #~ msgstr "Ver menos"
 
 #~ msgid "Show more"
-#~ msgstr "Ver más"
+#~ msgstr "Ver mas"
 
 #~ msgid "Skipped Blocks (previously synced)"
 #~ msgstr "Bloques Saltados (previamente sincronizado)"
@@ -875,10 +875,10 @@ msgstr ""
 #~ msgstr "Hoy"
 
 #~ msgid "Transaction Output Set Information"
-#~ msgstr "Información del Conjunto de Salida de la Transacción"
+#~ msgstr "Informacion del Conjunto de Salida de la Transaccion"
 
 #~ msgid "Transaction Outputs"
-#~ msgstr "Salidas de la Transacción"
+#~ msgstr "Salidas de la Transaccion"
 
 #~ msgid "Unconfirmed Txs Balance"
 #~ msgstr "Balance sin confirmar"

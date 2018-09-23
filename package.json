@@ -1,23 +1,23 @@
 {
-  "name": "vipstarcoin-explorer",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the VIPSTARCOIN network and build your own services with it.",
+  "name": "miningenthusiastcoin-explorer",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the MiningEnthusiastCoin network and build your own services with it.",
   "version": "0.11.3",
-  "repository": "https://github.com/fkfk/vipstarcoin-explorer.git",
+  "repository": "https://github.com/MiningEnthusiastCoin-Project/miningenthusiastcoin-explorer.git",
   "contributors": [],
   "bugs": {
-    "url": "https://github.com/fkfk/vipstarcoin-explorer/issues"
+    "url": "https://github.com/MiningEnthusiastCoin-Project/miningenthusiastcoin-explorer/issues"
   },
-  "homepage": "https://github.com/fkfk/vipstarcoin-explorer",
+  "homepage": "https://github.com/MiningEnthusiastCoin-Project/miningenthusiastcoin-explorer",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "vipstarcoin",
-    "vipstarcoincore",
+    "miningenthusiastcoin",
+    "miningenthusiastcoincore",
     "front-end"
   ],
-  "vipstarcoincoreNode": "vipstarcoincore-node",
+  "miningenthusiastcoincoreNode": "miningenthusiastcoincore-node",
   "dependencies": {},
   "devDependencies": {
     "bower": "~1.2.8",

@@ -22,11 +22,11 @@
       <!--
 			<div class="item item-full">
 				<div class="labeled" translate>Total Supply</div>
-				<div class="label">{{ IC.blockchainInfo.supply | numeraljs : '0,0[.][00000000]' }} VIPS</div>
+				<div class="label">{{ IC.blockchainInfo.supply | numeraljs : '0,0[.][00000000]' }} MNEC</div>
 			</div>
 			<div class="item item-full" ng-if="IC.marketsInfo">
 				<div class="labeled" translate>Circulating Supply</div>
-				<div class="label">{{ IC.marketsInfo.available_supply | numeraljs : '0,0[.][00000000]' }} VIPS</div>
+				<div class="label">{{ IC.marketsInfo.available_supply | numeraljs : '0,0[.][00000000]' }} MNEC</div>
 			</div>
       -->
 			<div class="clearfix">
@@ -60,11 +60,11 @@
 				</div>
 				<div class="item-full">
 					<div class="labeled" translate>Price in USD</div>
-					<div class="label">{{ IC.marketsInfo.price_usd }} USD/VIPS</div>
+					<div class="label">{{ IC.marketsInfo.price_usd }} USD/MNEC</div>
 				</div>
 				<div class="item-full">
 					<div class="labeled" translate>Price in BTC</div>
-					<div class="label">{{ IC.marketsInfo.price_btc }} BTC/VIPS</div>
+					<div class="label">{{ IC.marketsInfo.price_btc }} BTC/MNEC</div>
 				</div>
 			</div>
 		</div>
@@ -174,7 +174,7 @@
 					class="insight__chartTitle"
 					ng-if="IC.chartOptions.data && IC.chartOptions.labels">
 				{{ IC.chartDays }}
-				{{ 'day VIPS Transaction History' | translate }}
+				{{ 'day MNEC Transaction History' | translate }}
 			</div>
 			<div class="" ng-if="IC.chartOptions.data && IC.chartOptions.labels">
 				<div class="">
@@ -196,7 +196,7 @@
 			<h3 class="heading__title" translate>About</h3>
 		</div>
 		<div class="content__body">
-			<p translate>Insight is an <a href="https://insight.is/" target="_blank">open-source VIPSTARCOIN blockchain explorer</a> with complete REST and websocket APIs that can be used for writing web wallets and other apps that need more advanced blockchain queries than provided by VIPSTARCOINd RPC. Check out the <a href="https://github.com/bitpay/insight-ui" target="_blank" class="ng-scope">source code</a>.
+			<p translate>Insight is an <a href="https://insight.is/" target="_blank">open-source MiningEnthusiastCoin blockchain explorer</a> with complete REST and websocket APIs that can be used for writing web wallets and other apps that need more advanced blockchain queries than provided by miningenthusiastcoind RPC. Check out the <a href="https://github.com/bitpay/insight-ui" target="_blank" class="ng-scope">source code</a>.
 			</p>
 			<p translate>Insight is still in development, so be sure to report any bugs and provide feedback for improvement at our <a href="https://github.com/bitpay/insight-ui/issues" target="_blank" class="ng-scope">github issue tracker</a>.
 			</p>
@@ -223,7 +223,7 @@
 	<div class="content__full air-b" data-ng-controller="SendRawTransactionController as SRTC">
 		<div class="heading">
 			<h1 class="heading__title">Send Raw Transaction</h1>
-			<p class="heading__desc">You could enter a Signed Raw Transaction in hex format and broadcast it over the VIPSTARCOIN network.</p>
+			<p class="heading__desc">You could enter a Signed Raw Transaction in hex format and broadcast it over the MiningEnthusiastCoin network.</p>
 		</div>
 		<div class="section">
 	

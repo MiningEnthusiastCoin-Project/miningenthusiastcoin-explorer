@@ -15,7 +15,7 @@
     "angular-ui-utils": "~0.1.1",
     "angular-gettext": "^2.3.9",
     "angular-moment": "^1.0.1",
-    "vipstarcoin-lib": "git://github.com/fkfk/vipstarcoin-lib.git",
+    "miningenthusiastcoin-lib": "git://github.com/MiningEnthusiastCoin-Project/miningenthusiastcoin-lib.git",
     "jquery": "^3.2.1",
     "clipboard": "^1.6.1",
     "ngclipboard": "^1.1.1",

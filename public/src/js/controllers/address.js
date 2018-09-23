@@ -48,7 +48,7 @@ function($scope, $rootScope, $document, $routeParams, $location, $window, Addres
 	self.balances = [];
 
 	var _startSocket = function() {
-		socket.on('vipstarcoind/addresstxid', function(data) {
+		socket.on('miningenthusiastcoind/addresstxid', function(data) {
 
 			if (data.address === addrStr) {
 
@@ -60,7 +60,7 @@ function($scope, $rootScope, $document, $routeParams, $location, $window, Addres
 			}
 		});
 	
-		socket.emit('subscribe', 'vipstarcoind/addresstxid', [addrStr]);
+		socket.emit('subscribe', 'miningenthusiastcoind/addresstxid', [addrStr]);
 	};
 
     var _parseStorageRowType = function(hex, type) {
@@ -156,7 +156,7 @@ function($scope, $rootScope, $document, $routeParams, $location, $window, Addres
 
 	var _stopSocket = function () {
 
-		socket.emit('unsubscribe', 'vipstarcoind/addresstxid', [addrStr]);
+		socket.emit('unsubscribe', 'miningenthusiastcoind/addresstxid', [addrStr]);
 	};
 
 	socket.on('connect', function() {
